@@ -1,0 +1,36 @@
+{
+  "name": "readarr-provider-proxy",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon --watch dist dist/index.js",
+    "test": "true",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "lint": "prettier --check '{src,tests}/{**/*,*}.{js,ts,cjs,mjs}' && eslint '{src,tests}/{**/*,*}.{js,ts,cjs,mjs}'"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
+    "eslint": "^8.56.0",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "bracketSpacing": true,
+    "arrowParens": "always"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "readarr-provider-proxy dev",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "readarr-provider-proxy",
+  "workspaceFolder": "/app",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": ["esbenp.prettier-vscode"]
+    }
+  }
+}
